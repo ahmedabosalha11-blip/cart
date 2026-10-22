@@ -72,7 +72,7 @@ body {
 
 .fav-slide .logo {
     margin-bottom: 10px;
-    
+
 }
 
 .fav-slide .logo i {
@@ -1190,9 +1190,11 @@ nav .search-section input:focus::placeholder {
 .container nav .nav-lg .icons i:hover {
     color: var(--blue-color);
 }
-.container nav .nav-lg .icons .fav-div{
+
+.container nav .nav-lg .icons .fav-div {
     position: relative;
 }
+
 .container nav .nav-lg .icons .counter-fav {
     width: 20px;
     height: 20px;
@@ -1206,9 +1208,11 @@ nav .search-section input:focus::placeholder {
     justify-content: center;
     align-items: center;
 }
-.container nav .nav-lg .icons .cart-div{
+
+.container nav .nav-lg .icons .cart-div {
     position: relative;
 }
+
 .container nav .nav-lg .icons .countr {
     width: 20px;
     height: 20px;
@@ -2579,17 +2583,19 @@ body.dark-theme .help .close-btn {
 }
 
 @media (max-width: 576px) {
-    .nav-lg .search{
+    .nav-lg .search {
         position: absolute;
         left: 50%;
         transform: translateX(-50%);
         width: 65%;
     }
-    .nav-lg .icons{
+
+    .nav-lg .icons {
         margin-left: 5px;
         flex-grow: 1;
         justify-content: space-evenly;
     }
+
     .fav-slide,
     .login-slide,
     .cart-slide,
@@ -2612,21 +2618,32 @@ body.dark-theme .help .close-btn {
     .cart-slide .products-box .my-product {
         flex-direction: column;
     }
-    .cart-slide .products-box .my-product .info{
+
+    .cart-slide .products-box .my-product .info {
         justify-content: space-between !important;
         flex-wrap: nowrap;
-        
+
     }
-    .cart-slide .products-box .my-product .info .text{
+
+    .cart-slide .products-box .my-product .info .text {
         flex-grow: 1;
     }
-    .cart-slide .products-box .my-product .info .math-box{
-        
+    .cart-slide .products-box .my-product .info .text .pro-name{
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+        display: -webkit-box !important;
+        -webkit-line-clamp: 1 !important;
+        -webkit-box-orient: vertical !important;
+    }
+    .cart-slide .products-box .my-product .info .math-box {
+
         flex-grow: 1;
         display: flex;
         justify-content: end;
         align-items: center;
+        
     }
+
     .fav-slide .close-btn,
     .login-slide .close-btn,
     .cart-slide .close-btn,
