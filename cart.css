@@ -1363,8 +1363,10 @@ nav .search-section input:focus::placeholder {
     margin: 25px;
 }
 
-.container .categories div {
+.container .categories a {
     width: 200px;
+    text-decoration: none;
+    color: black;
     height: fit-content;
     padding: 15px 10px;
     display: flex;
@@ -1379,7 +1381,7 @@ nav .search-section input:focus::placeholder {
     flex-grow: 1;
 }
 
-.container .categories div:hover {
+.container .categories a:hover {
     background-color: rgba(255, 255, 255, 0.411);
 }
 
@@ -1646,7 +1648,7 @@ nav .search-section input:focus::placeholder {
         display: block;
     }
 
-    .container .categories div {
+    .container .categories a {
         width: 150px;
     }
 
@@ -1722,7 +1724,7 @@ nav .search-section input:focus::placeholder {
 body,
 nav,
 .container,
-.categories div,
+.categories a,
 .images,
 .parent,
 .footer,
@@ -1743,7 +1745,7 @@ body.dark-theme {
 
 body.dark-theme nav,
 body.dark-theme .images,
-body.dark-theme .categories div,
+body.dark-theme .categories a,
 body.dark-theme .parent {
     background-color: #111C38 !important;
     color: white !important;
@@ -1768,15 +1770,15 @@ body.dark-theme .images {
     border-right: none;
 }
 
-body.dark-theme .categories div:hover {
+body.dark-theme .categories a:hover {
     background-color: var(--hover-color) !important;
 }
 
-body.dark-theme .categories div i {
+body.dark-theme .categories a i {
     transition: .2s;
 }
 
-body.dark-theme .categories div:hover i {
+body.dark-theme .categories a:hover i {
     color: white;
 }
 
@@ -2161,11 +2163,11 @@ body.dark-theme .container .images .photos .swicth-boxs div.active {
 }
 
 /* categories */
-body.dark-theme .container .categories div {
+body.dark-theme .container .categories a {
     color: white;
 }
 
-body.dark-theme .container .categories div i {
+body.dark-theme .container .categories a i {
     color: #5da9ff;
 }
 
