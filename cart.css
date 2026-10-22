@@ -72,6 +72,7 @@ body {
 
 .fav-slide .logo {
     margin-bottom: 10px;
+    
 }
 
 .fav-slide .logo i {
@@ -1121,7 +1122,7 @@ nav .search:focus {
 }
 
 .container nav .nav-lg .logo {
-    margin-left: 25px;
+    margin-left: 15px;
     font-family: "Bebas Neue", sans-serif;
 }
 
@@ -1177,8 +1178,7 @@ nav .search-section input:focus::placeholder {
 }
 
 .container nav .nav-lg .icons {
-    margin-right: 35px;
-    position: relative;
+    margin-right: 30px;
 }
 
 .container nav .nav-lg .icons i {
@@ -2587,7 +2587,8 @@ body.dark-theme .help .close-btn {
     }
     .nav-lg .icons{
         margin-left: 5px;
-        gap: 10px !important;
+        flex-grow: 1;
+        justify-content: space-evenly;
     }
     .fav-slide,
     .login-slide,
