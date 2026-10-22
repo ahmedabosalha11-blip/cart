@@ -1570,7 +1570,7 @@ body.dark-theme .search-section input {
 }
 body.dark-theme .nav-lg .input-icon{
     color: white;
-    
+    cursor: pointer;
 }
 body.dark-theme .search-section input::placeholder {
     color: #8899ac !important;
@@ -2337,7 +2337,6 @@ body.dark-theme .help .close-btn {
     .login-slide,
     .cart-slide,
     .address-slide,
-    .add-form,
     .about-us,
     .help {
         width: 94%;
@@ -2352,6 +2351,16 @@ body.dark-theme .help .close-btn {
     .account-setting{
         width: 94%;
         height: 58vh;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 18px 14px;
+        border-radius: 12px;
+    }
+    .add-form{
+        width: 94%;
+        height: 90vh;
+        max-height: 900px;
         top: 50%;
         left: 50%;
         transform: translate(-50%, -50%);
@@ -2389,7 +2398,7 @@ body.dark-theme .help .close-btn {
     }
 
     .address-slide .address-section {
-        height: 75%;
+        height: 85%;
     }
 
     .add-form .form .city-country {
