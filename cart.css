@@ -2625,6 +2625,7 @@ body.dark-theme .help .close-btn {
         flex-grow: 1;
         display: flex;
         justify-content: end;
+        align-items: center;
     }
     .fav-slide .close-btn,
     .login-slide .close-btn,
