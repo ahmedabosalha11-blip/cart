@@ -2612,7 +2612,12 @@ body.dark-theme .help .close-btn {
     .cart-slide .products-box .my-product {
         flex-direction: column;
     }
-
+    body.dark-theme .cart-slide .products-box .my-product .info{
+        flex-wrap: nowrap;
+    }
+    body.dark-theme .cart-slide .products-box .my-product .info .text{
+        flex-shrink: 3;
+    }
     .fav-slide .close-btn,
     .login-slide .close-btn,
     .cart-slide .close-btn,
