@@ -1190,29 +1190,33 @@ nav .search-section input:focus::placeholder {
 .container nav .nav-lg .icons i:hover {
     color: var(--blue-color);
 }
-
+.container nav .nav-lg .icons .fav-div{
+    position: relative;
+}
 .container nav .nav-lg .icons .counter-fav {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: var(--blue-color);
     position: absolute;
-    top: -13px;
-    right: 55px;
+    top: -15px;
+    right: -8px;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
+.container nav .nav-lg .icons .cart-div{
+    position: relative;
+}
 .container nav .nav-lg .icons .countr {
     width: 20px;
     height: 20px;
     border-radius: 50%;
     background-color: var(--blue-color);
     position: absolute;
-    top: -13px;
-    right: -10px;
+    top: -15px;
+    right: -8px;
     color: white;
     display: flex;
     justify-content: center;
@@ -2583,6 +2587,7 @@ body.dark-theme .help .close-btn {
     }
     .nav-lg .icons{
         margin-left: 5px;
+        gap: 10px !important;
     }
     .fav-slide,
     .login-slide,
