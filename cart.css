@@ -2770,7 +2770,9 @@ body.dark-theme .help .close-btn {
 }
 
 @media (max-width: 380px) {
-
+    .cart-slide .products-box .my-product .info .text {
+        font-size: 13px;
+    }
     .fav-slide,
     .login-slide,
     .cart-slide,
