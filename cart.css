@@ -2613,6 +2613,7 @@ body.dark-theme .help .close-btn {
         flex-direction: column;
     }
     .cart-slide .products-box .my-product .info{
+        justify-content: space-between !important;
         flex-wrap: nowrap;
     }
     .cart-slide .products-box .my-product .info .text{
