@@ -2615,9 +2615,16 @@ body.dark-theme .help .close-btn {
     .cart-slide .products-box .my-product .info{
         justify-content: space-between !important;
         flex-wrap: nowrap;
+        
     }
     .cart-slide .products-box .my-product .info .text{
-        flex-shrink: 3;
+        flex-grow: 1;
+    }
+    .cart-slide .products-box .my-product .info .math-box{
+        
+        flex-grow: 1;
+        display: flex;
+        justify-content: end;
     }
     .fav-slide .close-btn,
     .login-slide .close-btn,
